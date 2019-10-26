@@ -30,7 +30,7 @@ VALUES
 ('Rusty', 'passionate')
 ON CONFLICT DO NOTHING;
 
-INSERT INTO habitats(id, name, climate, temperature)
+INSERT INTO habitats(name, climate, temperature)
 VALUES
 ('desert', 'dry', 100),
 ('forrest', 'haunted', 70),
@@ -44,7 +44,7 @@ VALUES
 ('Rusty', 'mountain')
 ON CONFLICT DO NOTHING;
 
-INSERT INTO aliens(id, name, planet, enemy)
+INSERT INTO aliens(name, planet, enemy)
 VALUES
 ('Grey', 'Eris', 'Noodles'),
 ('Hopkinsville', 'Haumea', 'Fluffy'),
